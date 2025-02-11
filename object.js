@@ -24,8 +24,8 @@ const ob = {
 ob.age = 21;//way to update the value of key
 // console.log(ob.age)
 
-Object.freeze(ob);//it will freeze the object and we can not update the value of key
-ob.age = 22;
+// Object.freeze(ob);//it will freeze the object and we can not update the value of key
+// ob.age = 22;
 
 
 
@@ -34,4 +34,35 @@ ob.age = 22;
 ob.myFun = function() {
     console.log('Hello World')
 }
-console.log(ob.myFun)//it will print the function;
+// console.log(ob.myFun())//it will print the function;
+
+ob.myFun = () => {
+    console.log(`Hello ${ob.name}`)
+}
+// console.log(ob.myFun())//it will print the function;
+
+
+
+
+//const tinder = new Object();//it is a way to create object - singleton object
+const tinderUser = {}//non singleton object
+
+tinderUser.id = "123"
+tinderUser.name = "Naveen"
+isLogin = true
+
+
+// console.log(tinderUser)
+
+const regularUser = {
+    id: "123",
+    name: "Naveen", 
+   email: "naveen@gmail.com",
+   fullname:{
+    fname: "Naveen",
+    lname: "Junglan"
+   },
+}
+
+
+console.log(regularUser.fullname.fname)//used to access nested object
