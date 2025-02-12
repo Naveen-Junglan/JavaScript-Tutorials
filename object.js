@@ -15,11 +15,11 @@ const ob = {
 // console.log(ob);//way to print the object
 // console.log(typeof ob["mySymbol"]);//way to know the type of key
 
-// console.log(ob.name);//or 
+// console.log(ob.name);//way to access key
+// console.log(ob["locaton"])//another way to access key
 // console.log(ob["full name"]);// way to access key with space
 // console.log(ob.age) 
 // console.log(ob.key1)// way to access key with symbol
-// console.log(ob["locaton"])//another way to access key
 
 ob.age = 21;//way to update the value of key
 // console.log(ob.age)
@@ -57,11 +57,11 @@ isLogin = true
 const regularUser = {
     id: "123",
     name: "Naveen", 
+    fullname:{
+     fname: "Naveen",
+     lname: "Junglan"
+    },
    email: "naveen@gmail.com",
-   fullname:{
-    fname: "Naveen",
-    lname: "Junglan"
-   },
 }
 
 
