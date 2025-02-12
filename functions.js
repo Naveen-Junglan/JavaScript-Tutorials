@@ -46,7 +46,7 @@
 
 
 
-// function helloOb(o){//Second approach
+// // function helloOb(o){//Second approach
 // 	console.log(`User name is ${o.name} and his age is ${o.age}`)
 // }
 // helloOb({
@@ -55,3 +55,10 @@
 // })
 
 
+// //Array as a parameter
+// const newArr = [10, 20, 30, 40]
+// function arrFun(arr){
+// 	console.log(arr[2])
+// }
+
+// arrFun(newArr)// or we can directly pass an array as an argument
