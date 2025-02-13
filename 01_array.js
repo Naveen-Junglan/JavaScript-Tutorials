@@ -18,8 +18,7 @@ constarr=[10,20,70,80,30,40,50,60,90];
 //for(i=0;i<arr.length;i++){
 //console.log("<li>"+arr[i]+"</li>");
 //}
-//console.log("</ul>");
-
+//console.log("</ul>")
 //arr.push(10);
 //console.log(arr);
 //console.log("<br>")
