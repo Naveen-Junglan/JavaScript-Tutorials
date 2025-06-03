@@ -1,0 +1,26 @@
+const user = {
+    name : "Naveen Singh",
+    age : 24,
+    std : "12th",
+    welcomeMessage : function() {
+        console.log(`Hello Sir! ${this.name}`); 
+    }
+}
+
+// user.welcomeMessage()
+user.name = "Tinku Junglan"
+// user.welcomeMessage()
+
+// Arrow Function--------------------------
+const arr = (num1, num2) => console.log(num1 + num2)
+// console.log(arr(2, 3));
+
+//Imedietly Invoke Function----------------
+
+(function name() {
+    console.log("Naveen Singh Junglan");
+})();
+
+((n, m) => {
+    console.log(n+m);
+})(40, 10);
