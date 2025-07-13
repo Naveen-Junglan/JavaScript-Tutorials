@@ -60,7 +60,16 @@ const str2 = " Tinku Junglan"
 
 // console.log(str1.substring(4, 10)); // takes arg(start, end) and returns string of the given values. Same as slice
 
-console.log(str1.toLocaleLowerCase()); // used to convert into lower case
-console.log(str1.toLowerCase()); // used to convert into lower case
-console.log(str1.toLocaleUpperCase()); // used to convert into upper case
-console.log(str1.toUpperCase()); // used to convert into upper case
+// console.log(str1.toLocaleLowerCase()); // used to convert into lower case
+// console.log(str1.toLowerCase()); // used to convert into lower case
+// console.log(str1.toLocaleUpperCase()); // used to convert into upper case
+// console.log(str1.toUpperCase()); // used to convert into upper case
+
+const str3 = 23
+// console.log(str2.toString()); // returns this string value
+// const n = str3.toString(); //  to convert a number into string
+// console.log(typeof n);
+
+console.log(str2.trim()); // used to trim
+
+console.log(str2.valueOf()); // returns the string
